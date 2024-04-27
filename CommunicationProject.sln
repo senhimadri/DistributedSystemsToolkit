@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQImplementation", "RabbitMQImplementation", "{C686F8CC-EA3F-4FBF-89DC-8FC0ADBB93D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaAirline.API", "FormulaAirline.API\FormulaAirline.API.csproj", "{FFBBB379-B4B2-4E23-A8B9-91829300022E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormulaAirline.TicketProcessing", "FormulaAirline.TicketProcessing\FormulaAirline.TicketProcessing.csproj", "{1ECD0D1C-B112-4097-B27F-236A3B2044B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFBBB379-B4B2-4E23-A8B9-91829300022E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBBB379-B4B2-4E23-A8B9-91829300022E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBBB379-B4B2-4E23-A8B9-91829300022E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBBB379-B4B2-4E23-A8B9-91829300022E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECD0D1C-B112-4097-B27F-236A3B2044B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECD0D1C-B112-4097-B27F-236A3B2044B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECD0D1C-B112-4097-B27F-236A3B2044B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECD0D1C-B112-4097-B27F-236A3B2044B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FFBBB379-B4B2-4E23-A8B9-91829300022E} = {C686F8CC-EA3F-4FBF-89DC-8FC0ADBB93D3}
+		{1ECD0D1C-B112-4097-B27F-236A3B2044B9} = {C686F8CC-EA3F-4FBF-89DC-8FC0ADBB93D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {979C83D3-86D9-47E4-81FA-5FC61CA37D48}
+	EndGlobalSection
+EndGlobal
